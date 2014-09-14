@@ -1,0 +1,4 @@
+.vagrant
+ssh.config
+ansible.cfg
+roles
