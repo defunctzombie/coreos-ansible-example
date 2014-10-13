@@ -91,6 +91,7 @@ Edit the `inventory/vagrant` file and add the following items at the end
 core-01
 
 [coreos:vars]
+ansible_ssh_user=core
 ansible_python_interpreter="PATH=/home/core/bin:$PATH python"
 ```
 
