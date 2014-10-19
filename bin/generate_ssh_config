@@ -1,4 +1,4 @@
-#/bin/bash
+#!/bin/bash
 
 cat > ansible.cfg << EOF
 [ssh_connection]
