@@ -1,6 +1,5 @@
 - name: example nginx website
   hosts: web
-  sudo: true
   tasks:
     - name: Start etcd
       service: name=etcd.service state=started
