@@ -5,7 +5,7 @@
       service: name=etcd.service state=started
 
     - name: Install docker-py
-      pip: name=docker-py
+      pip: name=docker-py version=0.6.0
 
     - name: pull container
       raw: docker pull nginx:1.7.1
