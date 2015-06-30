@@ -17,4 +17,4 @@
         image="nginx:1.7.1"
         name="example-nginx"
         ports="8080:80"
-        state=running
+        state=started
