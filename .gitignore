@@ -2,3 +2,4 @@
 ssh.config
 ansible.cfg
 roles
+*.retry
