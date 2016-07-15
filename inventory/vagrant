@@ -8,4 +8,4 @@ core-01
 core-01
 
 [coreos:vars]
-ansible_python_interpreter="PATH=/home/core/bin:$PATH python"
+ansible_python_interpreter=/home/core/bin/python
